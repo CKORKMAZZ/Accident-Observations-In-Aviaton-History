@@ -1,10 +1,4 @@
 
-SELECT
-	*
-FROM
-	AirplaneCrashes..Aircrash;
-
-
 --TO INVESTIGATE THE MOST DEADLY AVIATION TRAGEDY
 
 ALTER TABLE AirplaneCrashes..Aircrash
