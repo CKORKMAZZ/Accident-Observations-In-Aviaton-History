@@ -2,9 +2,6 @@
 --TO INVESTIGATE THE MOST DEADLY AVIATION TRAGEDY
 --DATA CLEANING FOR THE PURPOSES
 
-ALTER TABLE AirplaneCrashes..Aircrash
-ADD AdjustedFatalities nvarchar(255);
-
 UPDATE AirplaneCrashes..Aircrash
 SET fatalities= SUBSTRING(fatalities,1,CHARINDEX(' ',fatalities)-1);
 
